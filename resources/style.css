@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+#header{
+  display: inline-flex;
+  border-bottom: solid black 1px;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+
+ ul{
+   list-style-type: none;
+ }
+
+li{
+  display: inline;
+  margin: auto 10px;
+  color: black;
+}
+
+.box-two p{
+  color: mediumaquamarine;
+}
+
+.box-one{
+  margin: 15px;
+  margin-left: 20px;
+}
+
+.box-two{
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.box-three{
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.box-three a{
+  color: black;
+}
