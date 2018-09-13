@@ -1,4 +1,4 @@
-<!-- header -->
+
 
 body{
   margin: 0;
@@ -52,4 +52,29 @@ li{
   color: black;
 }
 
-<!-- content -->
+
+#content{
+  display: inline-flex;
+  width: 100%;
+}
+
+div{
+  border: solid black 0.5px;
+}
+
+.column-large{
+  width: 630px;
+  margin: 0 auto;
+}
+
+.column-medium{
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+.column-small{
+  width: 240px;
+  margin: 0 auto;
+
+}
